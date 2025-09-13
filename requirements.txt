@@ -1,0 +1,22 @@
+# Core ML dependencies
+jax[tpu]>=0.4.0
+flax>=0.8.0
+optax>=0.1.0
+orbax-checkpoint>=0.4.0
+
+# Tokenization and data
+tiktoken>=0.5.0
+datasets>=2.0.0
+
+# Experiment tracking
+wandb>=0.15.0
+
+# Evaluation
+mteb>=1.0.0
+torch>=2.0.0
+
+# Basic utilities
+numpy>=1.21.0
+
+# Model specific
+nmn>=0.1.0
